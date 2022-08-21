@@ -1,25 +1,48 @@
-# README
+## Test Techforxe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Requirements
 
-Things you may want to cover:
+- ruby
+3.1.2
+- postgres
+- rails
 
-* Ruby version
+#### Installation
 
-* System dependencies
+```
+  $ bundle
+  $ rails db:create db:migrate db:seed
+```
 
-* Configuration
 
-* Database creation
+#### Running locally
 
-* Database initialization
+Rails server:
 
-* How to run the test suite
+```
+  $ rails s 
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Visit http://localhost:3000
 
-* Deployment instructions
+http://localhost:3000/api-docs/index.html
 
-* ...
-# test_techforce
+
+
+#### Running Test cases
+
+Rspec Test:
+
+```
+  $ rspec
+```
+
+
+#### Running Rubocop
+
+Running Rubocop:
+
+```
+  $ rubocop
+```
+
